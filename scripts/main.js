@@ -45,13 +45,13 @@ if (question4.toUpperCase() === 'STARMAN') { correct +=1;
 }
 
 alert('The last question is true or false!');
-var question5 = prompt("TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armostrong became the first person to step on the lunar surface.");
+var question5 = prompt("TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.");
 if (question5.toUpperCase() === 'TRUE') { correct +=1;
-  document.write("<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armostrong became the first person to step on the lunar surface.</ul> <ul>You got the right answer! The Eagle has landed baby!</ul>");
+  document.write("<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.</ul> <ul>You got the right answer! The Eagle has landed baby!</ul>");
 
 
 } else {
-  document.write('<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armostrong became the first person to step on the lunar surface.</ul> <ul>Your answer is INCORRECT!! You were probably rooting for the Russians to get there first! boooo.</ul>');
+  document.write('<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.</ul> <ul>Your answer is INCORRECT!! You were probably rooting for the Russians to get there first! boooo.</ul>');
 
 }
 
