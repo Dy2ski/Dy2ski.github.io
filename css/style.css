@@ -1,0 +1,153 @@
+/* ========================
+  Base styles
+  =======================*/
+  * {
+  	box-sizing: border-box;
+  }
+
+
+  body {
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.6;
+
+  }
+
+  p {
+    font-size: .95em;
+    margin-bottom: 1.5em;
+
+
+
+  }
+
+  img {
+  width: 90%;
+
+
+
+
+}
+
+
+/*--------Layout Containers------*/
+
+.banner, .main-footer, .container {
+  text-align: center;
+
+  }
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 20px;
+
+
+
+}
+
+.wrap{
+  text-align: left;
+
+
+  }
+
+.main-footer {
+
+  text-align: center;
+  padding: 2em 0;
+  background: #4e89a4;
+
+
+  }
+
+  .banner {
+    padding-top: 2.2em;
+    padding-bottom: 20px;
+
+
+
+
+    }
+/* ---- Page Elements ---- */
+
+
+
+.hero {
+  border-radius: 30px;
+  margin-bottom: 20px;
+
+
+  }
+
+.heading {
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border-radius: 30px;
+  background: #4e89a4;
+  padding: 25px;
+
+  }
+
+.fas {
+    display: block;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 34px;
+    background:	#D3D3D3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+
+
+  }
+
+
+
+
+
+
+/* ========================
+  Clearfix
+  =======================*/
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+/* ========================
+  Media Queries
+  =======================*/
+
+  @media (min-width: 769px) {
+
+    .container {
+      width: 90%;
+      max-width: 1150px;
+      margin: 0 auto;
+
+
+
+    }
+
+
+    .hero { width: 70%;
+      border-radius: 30px;
+
+
+      }
+
+
+
+
+
+  }
