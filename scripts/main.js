@@ -1,57 +1,56 @@
-alert("Hello from Steve the creator of this game.");
 document.write("<h1>RESULTS</h1>");
 var correct = 0;
-alert("Welcome to my quiz about Science-Fiction books, movies, and history!");
+alert("Welcome to my quiz about science and fiction. These questions are from books, history, and movies!");
 var rightYear = 1977;
-var question1 = prompt("What year did 'Star Wars: A New Hope' get released?");
+var question1 = prompt("What year did 'Star Wars: a New Hope' get released?");
 if (parseInt(question1) === rightYear ) { correct +=1;
-  document.write("<ul><strong>Question 1 - </strong> What year did 'Star Wars: A New Hope' get released?</ul> <ul>You got the right answer! Yoda is proud!</ul>");
+  document.write("<ul><strong>Question 1 - </strong> What year did 'Star Wars: A New Hope' get released?</ul> <ul><strong> Answer: 1977 </strong></ul> <ul>You got the right answer! Yoda is proud!</ul>");
 
 } else {
-  document.write("<ul><strong>Question 1 - </strong> What year did 'Star Wars: A New Hope' get released?</ul> <ul>Your answer is incorrect. You are NO jedi!</ul>");
+    document.write("<ul><strong>Question 1 - </strong> What year did 'Star Wars: A New Hope' get released? </ul> <ul><strong> Answer: 1977 </strong></ul> <ul>Your answer is incorrect. You are NO jedi!</ul>");
 
 }
 
 var question2 = prompt("Who was the author of the book '1984'?");
 if (question2.toUpperCase() === 'GEORGE ORWELL') { correct +=1;
-  document.write("<ul><strong>Question 2 - </strong> Who was the author of the book '1984'?</ul> <ul>You got the right answer! You should work for the Thought Police!</ul>");
+  document.write("<ul><strong>Question 2 - </strong> Who was the author of the book '1984'?</ul>  <ul><strong> Answer: George Orwell </strong></ul> <ul>You got the right answer! You should work for the Thought Police!</ul>");
 
 
 } else {
-  document.write("<ul><strong>Question 2 - </strong> Who was the author of the book '1984'?</ul> <ul>Your answer is incorrect. Big Brother is watching!</ul>");
+  document.write("<ul><strong>Question 2 - </strong> Who was the author of the book '1984'?</ul> <ul><strong> Answer: George Orwell </strong></ul> <ul>Your answer is incorrect. Big Brother is watching!</ul>");
 
 }
 
 
 var question3 = prompt("What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.");
 if (question3.toUpperCase() === 'NEPTUNE' ) { correct +=1;
-     document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system?</ul> <ul>You got the right answer! YEAH! Hope you did NOT use Google!</ul>");
+     document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.</ul> <ul><strong> Answer: Neptune </strong></ul> <ul>You got the right answer! YEAH! Hope you did NOT use Google!</ul>");
 } else {
-  document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system?</ul> <ul>Your answer is incorrect. Did you sleep through third grade???</ul>");
+  document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.</ul> <ul><strong> Answer: Neptune </strong></ul> <ul>Your answer is incorrect. Did you sleep through third grade???</ul>");
 
 
 }
 
 
-var question4 = prompt("Which Sci-Fi movie was NOT based on a Stephen King book: 'Running Man,' 'The Lawnmower Man,' or 'Starman?' ");
-if (question4.toUpperCase() === 'STARMAN') { correct +=1;
-  document.write("<ul><strong>Question 4 - </strong> Which Sci-Fi movie was NOT based on a Stephen King book: 'Running Man,' 'The Lawnmower Man,' or 'Starman?'</ul> <ul>You got the right answer! You are totally awesome!! You must like the 80s. Oh what a nice mullet you have! :)</ul>");
+var question4 = prompt("In the movie, 'Terminator' what was the computer system that became self aware and started the war with the Humans called? Hint: It's one word.");
+if (question4.toUpperCase() === 'SKYNET') { correct +=1;
+  document.write("<ul><strong>Question 4 - </strong> In the movie, 'Terminator' what was the computer system that became self aware and started the war with the Humans called? Hint: It's one word. </ul> <ul><strong> Answer: Skynet </strong></ul> <ul>You got the right answer! You are totally awesome!! You must like the 80s. Oh what a nice mullet you have! :)</ul>");
 
 
 } else {
-  document.write("<ul><strong>Question 4 - </strong> Which Sci-Fi movie was NOT based on a Stephen King book: 'Running Man,' 'The Lawnmower Man,' or 'Starman?'</ul> <ul>Your answer is incorrect. You should probably get a Delorean and spend some time in the 1980s!</ul>");
+  document.write("<ul><strong>Question 4 - </strong> In the movie, 'Terminator' what was the computer system that became self aware and started the war with the Humans called? Hint: It's one word.</ul> <ul><strong> Answer: Skynet </strong> </ul> <ul>Your answer is incorrect. You should probably get a Delorean and spend some time in the 1980s!</ul>");
 
 
 }
 
-alert('The last question is true or false!');
-var question5 = prompt("TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.");
-if (question5.toUpperCase() === 'TRUE') { correct +=1;
-  document.write("<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.</ul> <ul>You got the right answer! The Eagle has landed baby!</ul>");
+
+var question5 = prompt("Who was the second person to walk on the moon's surface after Neil Armstrong?");
+if (question5.toUpperCase() === 'BUZZ ALDRIN') { correct +=1;
+  document.write("<ul><strong>Question 5 - </strong> Who was the second person to walk on the moon's surface after Neil Armstrong?</ul> <ul><strong> Answer: Buzz Aldrin</strong> </ul> <ul>You got the right answer! The Eagle has landed baby!</ul>");
 
 
 } else {
-  document.write('<ul><strong>Question 5 - </strong> TRUE or FALSE. Mission commander Neil Armstrong and pilot Buzz Aldrin, landed the lunar module in 1969. Armstrong became the first person to step on the surface.</ul> <ul>Your answer is INCORRECT!! You were probably rooting for the Russians to get there first! boooo.</ul>');
+  document.write("<ul><strong>Question 5 - </strong> Who was the second person to walk on the moon's surface after Neil Armstrong?'</ul> <ul><strong> Answer: Buzz Aldrin </strong> </ul> <ul>Your answer is INCORRECT!! You were probably rooting for the Russians to get to the moon first! boooo.</ul>");
 
 }
 
