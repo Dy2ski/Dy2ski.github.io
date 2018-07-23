@@ -12,7 +12,7 @@ if (parseInt(question1) === rightYear ) { correct +=1;
 }
 
 var question2 = prompt("Who was the author of the book '1984'?");
-if (question2.toUpperCase() === "GEORGE ORWELL") { correct +=1;
+if (question2.toLowerCase() === "george orwell") { correct +=1;
     document.write("<ul><strong>Question 2 - </strong> Who was the author of the book '1984'?</ul>  <ul><strong> Answer: George Orwell </strong></ul> <ul>You got the right answer! You should work for the Thought Police!</ul>");
 
 
@@ -23,7 +23,7 @@ if (question2.toUpperCase() === "GEORGE ORWELL") { correct +=1;
 
 
 var question3 = prompt("What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.");
-if (question3.toUpperCase() === "NEPTUNE" ) { correct +=1;
+if (question3.toLowerCase() === "neptune" ) { correct +=1;
      document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.</ul> <ul><strong> Answer: Neptune </strong></ul> <ul>You got the right answer! YEAH! Hope you did NOT use Google!</ul>");
 } else {
   document.write("<ul><strong>Question 3 - </strong> What is the farthest planet in our solar system? Hint: Pluto does not count, since it is a dwarf planet.</ul> <ul><strong> Answer: Neptune </strong></ul> <ul>Your answer is incorrect. Did you sleep through third grade???</ul>");
@@ -33,7 +33,7 @@ if (question3.toUpperCase() === "NEPTUNE" ) { correct +=1;
 
 
 var question4 = prompt("In the movie, 'Terminator' what was the computer system that became self aware and started the war with the Humans called? Hint: It's one word.");
-if (question4.toUpperCase() === "SKYNET") { correct +=1;
+if (question4.toLowerCase() === "skynet") { correct +=1;
   document.write("<ul><strong>Question 4 - </strong> In the movie, 'Terminator' what was the computer system that became self aware and started the war with the Humans called? Hint: It's one word. </ul> <ul><strong> Answer: Skynet </strong></ul> <ul>You got the right answer! You are totally awesome!! You must like the 80s. Oh what a nice mullet you have! :)</ul>");
 
 
@@ -45,7 +45,7 @@ if (question4.toUpperCase() === "SKYNET") { correct +=1;
 
 
 var question5 = prompt("Who was the second person to walk on the moon's surface after Neil Armstrong?");
-if (question5.toUpperCase() === "BUZZ ALDRIN") { correct +=1;
+if (question5.toLowerCase() === "buzz aldrin") { correct +=1;
   document.write("<ul><strong>Question 5 - </strong> Who was the second person to walk on the moon's surface after Neil Armstrong?</ul> <ul><strong> Answer: Buzz Aldrin</strong> </ul> <ul>You got the right answer! The Eagle has landed baby!</ul>");
 
 
